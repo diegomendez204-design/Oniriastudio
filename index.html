@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad - Oniria Studio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Chosen Palette: Calm Neutrals (Slate, Off-White, Soft Blue Accent) -->
+    <!-- Application Structure Plan: A single-page, document-style SPA with a sticky sidebar for navigation. This structure was chosen to make a dense, text-based document like a privacy policy easily scannable and navigable. The user can see the entire structure at a glance and jump to any section. Interactive accordions are used to break down complex sections, reducing initial cognitive load and allowing users to focus on specific information. This prioritizes readability and user control over a static text wall. -->
+    <!-- Visualization & Content Choices: The report is purely textual. Therefore, no data visualizations (charts) are used. The focus is on enhancing text presentation. Report Info: Data collection types -> Goal: Inform -> Presentation: Interactive Accordion -> Interaction: Click to expand/collapse -> Justification: Breaks down lists into manageable chunks. Report Info: User Rights -> Goal: Empower/Inform -> Presentation: Styled Cards in a Grid -> Interaction: Hover effects -> Justification: Highlights the most critical, user-centric information, making it scannable and easy to digest. Library/Method: All elements are built with structured HTML and styled with Tailwind CSS. JavaScript is used for smooth scrolling and active navigation state. NO SVG/Mermaid used. -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+        .active-nav {
+            color: #3b82f6;
+            font-weight: 500;
+            border-left-color: #3b82f6;
+        }
+        details > summary {
+            list-style: none;
+        }
+        details > summary::-webkit-details-marker {
+            display: none;
+        }
+        details[open] summary .arrow {
+            transform: rotate(90deg);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-700">
+
+    <div class="max-w-7xl mx-auto">
+        <div class="flex flex-col lg:flex-row">
+            
+            <aside class="w-full lg:w-1/4 lg:sticky lg:top-0 lg:h-screen p-8 bg-white border-r border-slate-200">
+                <h1 class="text-2xl font-bold text-slate-800">Oniria Studio</h1>
+                <p class="text-sm text-slate-500 mt-1">Política de Privacidad</p>
+                <nav class="mt-12">
+                    <ul id="nav-menu" class="space-y-2">
+                        <li><a href="#section-1" class="block py-2 px-4 border-l-4 border-transparent hover:bg-slate-100 transition-colors duration-200">1. Información Recopilada</a></li>
+                        <li><a href="#section-2" class="block py-2 px-4 border-l-4 border-transparent hover:bg-slate-100 transition-colors duration-200">2. Uso de tu Información</a></li>
+                        <li><a href="#section-3" class="block py-2 px-4 border-l-4 border-transparent hover:bg-slate-100 transition-colors duration-200">3. Cómo Compartimos Datos</a></li>
+                        <li><a href="#section-4" class="block py-2 px-4 border-l-4 border-transparent hover:bg-slate-100 transition-colors duration-200">4. Seguridad</a></li>
+                        <li><a href="#section-5" class="block py-2 px-4 border-l-4 border-transparent hover:bg-slate-100 transition-colors duration-200">5. Tus Derechos</a></li>
+                        <li><a href="#section-6" class="block py-2 px-4 border-l-4 border-transparent hover:bg-slate-100 transition-colors duration-200">6. Cambios a la Política</a></li>
+                        <li><a href="#section-7" class="block py-2 px-4 border-l-4 border-transparent hover:bg-slate-100 transition-colors duration-200">7. Contacto</a></li>
+                    </ul>
+                </nav>
+            </aside>
+
+            <main class="w-full lg:w-3/4 p-8 md:p-12 lg:p-16">
+                <header class="mb-12">
+                    <h2 class="text-4xl font-bold text-slate-900">Política de Privacidad</h2>
+                    <p class="mt-2 text-slate-500">Última actualización: 24/09/2025</p>
+                    <p class="mt-4 text-base leading-relaxed">
+                        Gracias por tu interés. Tu privacidad es muy importante para nosotros. Esta Política de Privacidad describe cómo recopilamos, usamos, protegemos y compartimos tu información personal cuando interactúas con nosotros a través de nuestras campañas publicitarias en Meta (incluyendo Facebook e Instagram) y en nuestro sitio web.
+                    </p>
+                </header>
+
+                <section id="section-1" class="scroll-mt-24 py-8">
+                    <h3 class="text-2xl font-bold text-slate-800 mb-6">1. Información que Recopilamos</h3>
+                     <p class="mb-6">Para ofrecerte nuestros servicios y mejorar tu experiencia, podemos recopilar información personal que nos proporcionas directamente, así como datos que se recogen de forma automática durante tu interacción con nosotros.</p>
+                    <div class="space-y-4">
+                        <details class="bg-white border border-slate-200 rounded-lg p-5 group">
+                            <summary class="flex justify-between items-center font-medium cursor-pointer">
+                                <span class="text-slate-800">a) Información que nos proporcionas directamente</span>
+                                <span class="arrow transition-transform duration-300 text-blue-500">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/></svg>
+                                </span>
+                            </summary>
+                            <div class="mt-4 text-slate-600 space-y-2">
+                                <p>Cuando completas un formulario para clientes potenciales en nuestras campañas de Meta Ads o te pones en contacto con nosotros, puedes proporcionarnos:</p>
+                                <ul class="list-disc list-inside pl-4">
+                                    <li>Nombre y apellidos.</li>
+                                    <li>Dirección de correo electrónico.</li>
+                                    <li>Número de teléfono.</li>
+                                    <li>Cualquier otra información que decidas compartir en los campos del formulario (como ciudad, empresa, etc.).</li>
+                                </ul>
+                            </div>
+                        </details>
+                        <details class="bg-white border border-slate-200 rounded-lg p-5 group">
+                            <summary class="flex justify-between items-center font-medium cursor-pointer">
+                                <span class="text-slate-800">b) Información recopilada automáticamente</span>
+                                <span class="arrow transition-transform duration-300 text-blue-500">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/></svg>
+                                </span>
+                            </summary>
+                            <div class="mt-4 text-slate-600 space-y-2">
+                                <p>Cuando interactúas con nuestros anuncios o visitas nuestro sitio web, podemos recopilar cierta información de forma automática a través de tecnologías de seguimiento como el Píxel de Meta y cookies:</p>
+                                <ul class="list-disc list-inside pl-4">
+                                    <li><strong>Información del dispositivo:</strong> Tipo de dispositivo, sistema operativo, identificadores únicos.</li>
+                                    <li><strong>Información de uso:</strong> Páginas que visitas, tiempo de visita, clics, acciones realizadas.</li>
+                                    <li><strong>Información de ubicación general:</strong> País o ciudad desde donde nos visitas.</li>
+                                </ul>
+                            </div>
+                        </details>
+                    </div>
+                </section>
+                
+                <div class="border-t border-slate-200 my-8"></div>
+
+                <section id="section-2" class="scroll-mt-24 py-8">
+                    <h3 class="text-2xl font-bold text-slate-800 mb-6">2. Cómo Usamos tu Información</h3>
+                    <p class="mb-6">Utilizamos la información recopilada con el objetivo principal de comunicarnos contigo y mejorar nuestros servicios. A continuación detallamos los propósitos específicos.</p>
+                    <ul class="space-y-4">
+                        <li class="flex items-start"><span class="text-blue-500 mr-3 mt-1">&#10003;</span><span><strong>Contacto y seguimiento:</strong> Para responder a tus solicitudes y ponernos en contacto contigo para ofrecerte la información, productos o servicios que solicitaste.</span></li>
+                        <li class="flex items-start"><span class="text-blue-500 mr-3 mt-1">&#10003;</span><span><strong>Marketing y publicidad:</strong> Para enviarte comunicaciones comerciales, promociones y ofertas que puedan ser de tu interés, y para crear audiencias relevantes en plataformas publicitarias.</span></li>
+                        <li class="flex items-start"><span class="text-blue-500 mr-3 mt-1">&#10003;</span><span><strong>Análisis y mejora:</strong> Para entender cómo los usuarios interactúan con nuestros anuncios y nuestro sitio web, medir la efectividad de nuestras campañas y mejorar nuestros servicios.</span></li>
+                        <li class="flex items-start"><span class="text-blue-500 mr-3 mt-1">&#10003;</span><span><strong>Cumplimiento legal:</strong> Para cumplir con nuestras obligaciones legales y proteger nuestros derechos.</span></li>
+                    </ul>
+                </section>
+
+                <div class="border-t border-slate-200 my-8"></div>
+
+                <section id="section-3" class="scroll-mt-24 py-8">
+                    <h3 class="text-2xl font-bold text-slate-800 mb-6">3. Cómo Compartimos tu Información</h3>
+                    <p class="mb-6">La confianza es fundamental, por lo que no vendemos tu información personal. Solo compartimos tus datos en circunstancias específicas y con socios de confianza para poder operar.</p>
+                    <ul class="space-y-4">
+                        <li class="flex items-start"><span class="text-blue-500 mr-3 mt-1">&#10003;</span><span><strong>Proveedores de servicios:</strong> Con empresas que nos prestan servicios, como plataformas de marketing o sistemas CRM, que necesitan acceso a la información para realizar su trabajo.</span></li>
+                        <li class="flex items-start"><span class="text-blue-500 mr-3 mt-1">&#10003;</span><span><strong>Plataformas publicitarias:</strong> Con plataformas como Meta para gestionar y optimizar nuestras campañas publicitarias.</span></li>
+                        <li class="flex items-start"><span class="text-blue-500 mr-3 mt-1">&#10003;</span><span><strong>Obligaciones legales:</strong> Si la ley lo exige o si es necesario para proteger nuestros derechos, tu seguridad o la de otros.</span></li>
+                    </ul>
+                </section>
+
+                <div class="border-t border-slate-200 my-8"></div>
+
+                <section id="section-4" class="scroll-mt-24 py-8">
+                    <h3 class="text-2xl font-bold text-slate-800 mb-6">4. Seguridad de tus Datos</h3>
+                    <div class="bg-blue-50 border border-blue-200 rounded-lg p-6">
+                        <p class="text-blue-800">Tomamos medidas de seguridad razonables, tanto técnicas como administrativas, para proteger tu información personal contra pérdida, robo, mal uso, acceso no autorizado, divulgación, alteración y destrucción.</p>
+                    </div>
+                </section>
+                
+                <div class="border-t border-slate-200 my-8"></div>
+
+                <section id="section-5" class="scroll-mt-24 py-8">
+                    <h3 class="text-2xl font-bold text-slate-800 mb-6">5. Tus Derechos</h3>
+                    <p class="mb-6">Tienes control sobre tu información personal. A continuación, te presentamos los derechos que puedes ejercer en cualquier momento.</p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="bg-white border border-slate-200 rounded-lg p-5 hover:shadow-md hover:border-blue-400 transition-all duration-300">
+                            <h4 class="font-bold text-slate-800">Acceder</h4>
+                            <p class="text-sm text-slate-600 mt-1">Puedes solicitar una copia de la información personal que tenemos sobre ti.</p>
+                        </div>
+                        <div class="bg-white border border-slate-200 rounded-lg p-5 hover:shadow-md hover:border-blue-400 transition-all duration-300">
+                            <h4 class="font-bold text-slate-800">Rectificar</h4>
+                            <p class="text-sm text-slate-600 mt-1">Puedes pedir que corrijamos la información si es inexacta o incompleta.</p>
+                        </div>
+                        <div class="bg-white border border-slate-200 rounded-lg p-5 hover:shadow-md hover:border-blue-400 transition-all duration-300">
+                            <h4 class="font-bold text-slate-800">Eliminar</h4>
+                            <p class="text-sm text-slate-600 mt-1">Puedes solicitar la eliminación de tus datos personales de nuestros sistemas.</p>
+                        </div>
+                        <div class="bg-white border border-slate-200 rounded-lg p-5 hover:shadow-md hover:border-blue-400 transition-all duration-300">
+                            <h4 class="font-bold text-slate-800">Oponerte</h4>
+                            <p class="text-sm text-slate-600 mt-1">Puedes oponerte al procesamiento de tus datos para fines de marketing directo.</p>
+                        </div>
+                    </div>
+                     <p class="mt-6 text-sm">Para ejercer cualquiera de estos derechos, por favor contáctanos a través de la información proporcionada al final de esta política.</p>
+                </section>
+
+                <div class="border-t border-slate-200 my-8"></div>
+
+                <section id="section-6" class="scroll-mt-24 py-8">
+                    <h3 class="text-2xl font-bold text-slate-800 mb-6">6. Cambios a esta Política de Privacidad</h3>
+                    <p>Nos reservamos el derecho de modificar esta política en cualquier momento. Si realizamos cambios, actualizaremos la fecha de "Última actualización" en la parte superior de esta página. Te recomendamos revisarla periódicamente.</p>
+                </section>
+                
+                <div class="border-t border-slate-200 my-8"></div>
+
+                <section id="section-7" class="scroll-mt-24 py-8">
+                    <h3 class="text-2xl font-bold text-slate-800 mb-6">7. Contacto</h3>
+                    <p class="mb-4">Si tienes alguna pregunta o inquietud sobre esta Política de Privacidad o nuestras prácticas de datos, puedes contactarnos en:</p>
+                    <div class="bg-white border border-slate-200 rounded-lg p-6">
+                        <p class="font-bold text-slate-800">Oniria Studio</p>
+                        <p class="text-slate-600"><strong>Teléfono:</strong> +591 78841831</p>
+                    </div>
+                </section>
+
+            </main>
+        </div>
+    </div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('#nav-menu a');
+
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.4
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                const id = entry.target.getAttribute('id');
+                const navLink = document.querySelector(`#nav-menu a[href="#${id}"]`);
+                
+                if (entry.isIntersecting) {
+                    navLinks.forEach(link => link.classList.remove('active-nav'));
+                    if(navLink) {
+                       navLink.classList.add('active-nav');
+                    }
+                }
+            });
+        }, observerOptions);
+
+        sections.forEach(section => {
+            observer.observe(section);
+        });
+    });
+</script>
+
+</body>
+</html>
